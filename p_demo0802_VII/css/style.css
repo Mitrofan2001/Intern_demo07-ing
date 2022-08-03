@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap&subset=chinese-traditional');
+
+body {
+    margin: 0;
+    font-family: Han Sans TW;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.point {
+    cursor: pointer;
+}
+
+.linknone {
+    text-decoration: none;
+    list-style: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/*---------------------------master_vision---------------------------------------*/
+.master_vision{
+    background-image: url('/img/主視覺.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 516px;
+   
+}
+
+/*---------------------------precautions-----------------------------------------*/
+.precautions {
+    margin-top: 43px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .precautions {
+        margin-top: 35px;
+    }
+}
+
+.precautione__content {
+    color: #666666;
+    line-height: 1.5;
+}
+
+.precaution__title__click {
+    max-width: 800px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.notice_span {
+    margin-left: -20px;
+    position: relative;
+}
+
+.notice_span:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 40%;
+    right: -18px;
+    height: 10px;
+    width: 2px;
+    background-color: #333;
+    transform: rotate(-50deg);
+    transition: all 0.2s ease-out;
+}
+
+.notice_span::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 40%;
+    right: -25px;
+    height: 10px;
+    width: 2px;
+    background-color: #333;
+    transform: rotate(50deg);
+    transition: all 0.2s ease-out;
+}
+
+
+@media screen and (max-width:576px) {
+    .precaution__title__click {
+        font-size: 24px;
+    }
+
+
+}
+
+.notice_span_act:before {
+    position: absolute;
+    transition: transform .5s;
+    transition: all 0.2s ease-out;
+    transform: rotate(50deg);
+}
+
+.notice_span_act::after {
+    position: absolute;
+    transition: transform .5s;
+    transition: all 0.2s ease-out;
+    transform: rotate(-50deg);
+}
+
+
+/*---content---*/
+.notice__announcement {
+    border-top: #707070 solid 1px;
+}
+
+.notice__content {
+    border-top: #707070 solid 1px;
+    line-height: 1.55;
+}
+
+.notice__content ol li {
+    padding-top: 10px;
+}
+
+/*-----update-vision-----------------------------------------------------------*/
+.update_vision {
+    text-align: end;
+    font-size: 16px;
+    color: #7c7c7c;
+    padding: 8px 0;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+

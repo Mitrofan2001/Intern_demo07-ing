@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="箭頭" transform="translate(-871 -877)">
+    <rect id="Rectangle_540" data-name="Rectangle 540" width="40" height="40" transform="translate(871 877)" fill="none"/>
+    <g id="Group_20185" data-name="Group 20185">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="14.838" cy="14.838" r="14.838" transform="translate(876.431 882.401)" fill="#ce28a4"/>
+      <path id="Path_921" data-name="Path 921" d="M2750.909,872.953l6.34,6.34-6.34,6.34" transform="translate(-1858.756 17.947)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.695"/>
+      <line id="Line_269" data-name="Line 269" x2="13.559" transform="translate(883.147 897.239)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.695"/>
+    </g>
+  </g>
+</svg>
